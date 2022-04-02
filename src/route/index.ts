@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Practice from './../views/Practice.vue'
 import Result from './../views/Result.vue'
+import CodeExercise from './../views/CodeExercise.vue'
 
 const routes = [
   {
@@ -21,6 +22,10 @@ const routes = [
   {
     path: '/result',
     component: Result
+  },
+  {
+    path: '/codeExercise',
+    component: CodeExercise
   }
 ]
 
